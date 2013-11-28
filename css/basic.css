@@ -1,1 +1,122 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+
+
+
+
+/*-------------------stilmallen-------------------------*/
+
+body
+{
+background-color:#FFF; 
+}
+
+
+#topbar
+{
+background-color:#554840;
+height:auto;
+width:600px;
+text-align:right;
+font-size:9px;
+font-family:verdana, Times New Roman;
+font-style:italic;
+color:#FFF;   
+}
+
+
+
+#menu
+{
+margin-top: 175px;    
+}
+
+
+#menu ul
+{
+list-style:none;
+padding: 0px;
+}
+
+#menu ul li{
+text-align:center; 
+color:#FFF;
+ position:relative;
+display: inline-block; 
+width:80px; 
+padding:5px 5px 5px 5px; 
+background:#7D766C; 
+margin-right: -5px; 
+border:1px #554840 solid; 
+
+}
+
+#menu ul li:hover
+{
+background:#EAE7D4;
+}
+
+#menu ul li a{
+color:#FFF;
+text-decoration:none;
+}
+
+#container
+{
+background-position:top 20px center;
+background-image: url('pics/coffey.jpg');
+background-repeat:no-repeat;
+background-color:#554840;
+max-width:600px;
+margin:auto;
+border: 1px solid;
+}
+
+#content
+{
+background-color:#EAE7D4;
+text-align:left;
+font-size:12px;
+font-family:verdana, Times New Roman;
+color:#777461;
+overflow:  auto;
+margin-top:-2.7%;    
+}
+
+#maincontent
+{
+background-color:#EAE7D4;
+float:left;
+width: 60%;
+padding: 5px;
+border-right: 1px dashed #50483B;
+
+
+}
+
+#subcontent
+{
+background-color:#EAE7D4;
+font-size:12px;
+padding-left:10px;
+padding-right:5px;    
+}
+
+#bottomcontent
+{
+background-color:#EAE7D4;    
+}
+
+
+/*------------------------bildformatering-----------------------------*/
+
+#maincontent img
+
+{
+float: left;
+padding-left: 5px;
+padding-right: 5px;    
+}
+
+
+
