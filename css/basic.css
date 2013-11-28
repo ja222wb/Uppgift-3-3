@@ -28,7 +28,9 @@ color:#FFF;
 
 #menu
 {
-margin-top: 175px;    
+margin-top: 175px;
+padding-left:5px;
+text-transform:capitalize;    
 }
 
 
@@ -47,7 +49,8 @@ width:80px;
 padding:5px 5px 5px 5px; 
 background:#7D766C; 
 margin-right: -5px; 
-border:1px #554840 solid; 
+margin-left:2px;
+
 
 }
 
@@ -86,6 +89,8 @@ margin-top:-2.7%;
 #maincontent
 {
 background-color:#EAE7D4;
+font-family:verdana, times new roman;
+line-height:1.5;
 float:left;
 width: 60%;
 padding: 5px;
@@ -97,14 +102,27 @@ border-right: 1px dashed #50483B;
 #subcontent
 {
 background-color:#EAE7D4;
-font-size:12px;
-padding-left:10px;
-padding-right:5px;    
+font-size:11px;
+line-height:1.5;
+margin-left:5px;
+width: 200px;
+float:left;    
 }
+
+#subcontent p, h1, h2, li
+{
+padding-left:5px;
+}
+
 
 #bottomcontent
 {
-background-color:#EAE7D4;    
+background-color:#EAE7D4;
+font-size: 9px;
+font-style:italic;
+margin-bottom:5px;
+float:left;
+width:600px;    
 }
 
 
@@ -116,6 +134,37 @@ background-color:#EAE7D4;
 float: left;
 padding-left: 5px;
 padding-right: 5px;    
+}
+
+
+/*---------li-lu-ol----formartering--------*/
+
+
+
+#subcontent ul,ol,li
+{
+list-style:none;
+}
+
+
+#subcontent a
+{
+color:#000;
+}
+
+
+/*----------------------rubrikformateringar--------------------------*/
+
+#subcontent h1
+{
+font-size: 14px;
+font-family:new Times New Roman;
+}
+
+#maincontent h1
+{
+font-size: 25px;
+font-family:new Times New Roman;    
 }
 
 
