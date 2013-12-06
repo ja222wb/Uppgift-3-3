@@ -25,55 +25,8 @@ color:#FFF;
 }
 
 
+/* meny?-se MENY-formatering längre ner--*/
 
-#menu
-{
-margin-top: 210px;
-padding-left:5px;
-text-transform:capitalize;    
-}
-
-#menu a
-{
-    display:none;
-    }
-
-#menu ul
-{
-list-style:none;
-padding: 0px;
-}
-
-#menu ul li a
-{
-  color:#FFF;
-  display: inline-block;  
-  text-align:center; 
-    }
-
-#menu ul li{
-text-align:center; 
-color:#FFF;
-position:relative;
-display: inline-block; 
-width:80px; 
-padding:5px 5px 5px 5px; 
-background:#7D766C; 
-margin-right: -5px; 
-margin-left:2px;
-
-
-}
-
-#menu ul li:hover
-{
-background:#EAE7D4;
-}
-
-#menu ul li a{
-color:#FFF;
-text-decoration:none;
-}
 
 #container
 {
@@ -105,13 +58,13 @@ line-height:1.5;
 float:left;
 width: 60%;
 padding: 5px;
-border-right: 1px dashed #50483B;
-
-
+border-right: 1px dashed silver;
 }
+
 
 #subcontent
 {
+
 background-color:#EAE7D4;
 font-size:11px;
 line-height:1.5;
@@ -119,6 +72,14 @@ margin-left:5px;
 width: 200px;
 float:left;    
 }
+
+
+#subcontent ul
+{
+margin:0;
+padding:0;
+}
+
 
 #subcontent p, h1, h2, li
 {
@@ -131,9 +92,74 @@ padding-left:5px;
 background-color:#EAE7D4;
 font-size: 9px;
 font-style:italic;
-margin-bottom:5px;
+margin-bottom:10px;
 float:left;
 width:600px;    
+}
+
+
+
+
+/*-----------------------MENY--formatering-------------------------------*/
+
+
+
+#menu
+{
+margin-top: 210px;
+padding-left:5px;
+text-transform:capitalize;
+float:center;
+
+   
+}
+
+#menu a
+{
+    display:none;
+    }
+
+#menu ul
+{
+list-style:none;
+padding: 0px;
+}
+
+#menu ul li a
+{
+  color:#000;
+  display: inline-block;  
+  text-align:center; 
+    }
+
+#menu ul li{
+text-align:center; 
+color:#000;
+position:relative;
+display: inline-block; 
+width:90px; 
+padding:5px 10px 5px 5px; 
+background:#7D766C; 
+margin-right: -5px; 
+margin-left:2px;
+
+
+}
+
+#menu  ul li:hover
+{
+background:#EAE7D4;
+color:#777461;
+}
+
+#menu a:hover
+{
+color:#777461;
+}
+
+#menu ul li a{
+color:#EAE7D4;
+text-decoration:none;
 }
 
 
@@ -174,13 +200,22 @@ display:none;
 #subcontent h1
 {
 font-size: 14px;
-font-family:new Times New Roman;
+font-family:new Times New Roman ;
+font-weight:normal;
 }
+
+#subcontent h2
+{
+font-size: 11px;
+font-family: Verdana, new Times New Roman;
+font-weight: normal;
+} 
 
 #maincontent h1
 {
 font-size: 25px;
-font-family:new Times New Roman;    
+font-family:new Times New Roman;
+font-weight:normal;    
 }
 
 
