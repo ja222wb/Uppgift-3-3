@@ -57,7 +57,8 @@ font-family:verdana, times new roman;
 line-height:1.5;
 float:left;
 width: 60%;
-padding: 5px;
+padding-left: 5px;
+margin-top: 15px;
 border-right: 1px dashed silver;
 }
 
@@ -70,7 +71,8 @@ font-size:11px;
 line-height:1.5;
 margin-left:5px;
 width: 200px;
-float:left;    
+float:left;
+padding-top: 20px;    
 }
 
 
@@ -107,8 +109,9 @@ width:600px;
 #menu
 {
 margin-top: 210px;
-padding-left:5px;
+padding-left:10px;
 text-transform:capitalize;
+margin-top:215px;
 
 
    
@@ -127,7 +130,8 @@ text-transform:capitalize;
 #menu ul
 {
 list-style:none;
-padding: 0px;
+padding:0px;
+
 
 
 }
@@ -161,19 +165,23 @@ color:#EAE7D4;
 text-decoration:none;
 }
 
+#menu li a
+{
+color:black;    
+}
 
 
-#menu li.active
+#menu li.active 
 {
 float:left;
-color:black;
 background-color:#EAE7D4;
+color:#33CCFF;
 margin-right: -1px;
 }
 
-#menu li a.active
+#menu li.active a
 {
-color:black;    
+color:#777461;
 }
 
 
